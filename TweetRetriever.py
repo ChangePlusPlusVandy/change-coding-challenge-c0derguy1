@@ -10,8 +10,8 @@ user_base_url = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_
 def auth_user():
 
     # declaring auth keys
-    client_key = 'hGbwYH2fJ6rDb3lStaQvd55BK'
-    client_secret = 'aEwZHkMJ8foOb4sFZkUJKzXWvGQh8Prbuut2VApuQOkOaKhAdj'
+    client_key = 'USER_CLIENT_KEY'
+    client_secret = 'USER_CLIENT_SECRET_KEY'
 
     # passing authentication parameters
     url = "https://api.twitter.com/1.1/account/verify_credentials.json"
